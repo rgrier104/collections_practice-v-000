@@ -38,7 +38,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect{|element, index| 
+  array.each_with_index.collect{|element, index|
     if index = 2
       element
     else
@@ -46,4 +46,3 @@ def add_s(array)
     end}
   end
 end
-      
